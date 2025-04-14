@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body
+{
+    background-color: black;
+}
+
+
+.div1
+{
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+
+}
+.div5{
+    display: flex;
+    width: 80%;
+    gap: 10px;
+}
+.div2
+{
+    display: flex;
+    gap: 6px;
+
+}
+.div3
+{
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.circle
+{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: white;
+    margin-top: 10px;
+}
+.rect 
+{
+    height: 2px;
+    width: 20px;
+    background-color: white;
+
+
+}
+.left_div
+{
+   
+    height: 700px;
+    width: 200px;
+}
+
+i {
+    font-size: 24px;
+    color: white;
+  }
+  aside {
+    height: 100%;
+    width: 280px;
+    background-color: black;
+    overflow: auto;
+}
+.contenu {
+    height: calc(100vh - 56px);
+    display: flex;
+    background-color:black;
+}
+
+.nav-link {
+    display: flex;
+    align-items: center;
+    padding: 10px 16px;
+    text-decoration: none;
+    color: black;
+}
+.span
+{
+    color: white;
+}
+.channel{
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+}
+
+.div6
+{
+margin-left: 60px;
+  display: flex;
+  gap: 40px;
+}
+.rec1
+{
+    margin-top: 30px;
+    height: 200px;
+    width: 350px;
+    background-color: white;
+}
+.rec2
+{
+    margin-top: 5px;
+    width:100%;
+    height:13px ;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.rec4
+{
+   margin-top: 5px;
+    width:100px ;
+    height:13px ;
+    background-color: rgb(0, 0, 0);
+    color: rgb(131, 131, 131);
+    margin-top: 25px;
+}
+
+.div7
+{
+    display:table-column;
+
+}
+img
+{
+    height: 200px;
+    width: 350px;
+}
+.img1
+{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+.info{
+    flex-direction: column;
+}
+.vedio-titre {
+    color: rgba(3, 3, 3);
+    font-size: 1.6rem;
+    max-width: 278px;
+    font-weight: 500;
+    line-height: 2.2rem;
+    margin-bottom: 4px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.titre {
+    display: flex;
+    flex-direction: column;
+}
+.title a {
+    text-decoration: none;
+}
